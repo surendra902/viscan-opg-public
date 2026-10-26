@@ -1,0 +1,50 @@
+{
+  "image_id": "sample_05_val_21",
+  "modality": "OPG",
+  "model": {
+    "name": "fasterrcnn_resnet50_fpn_v2",
+    "version": "2.0.0"
+  },
+  "inference_ms": 8759.0,
+  "findings": [
+    {
+      "class": "caries",
+      "confidence": 0.98,
+      "tooth_fdi": null,
+      "bbox": [
+        1895.3,
+        700.3,
+        2139.2,
+        989.3
+      ]
+    },
+    {
+      "class": "impacted_tooth",
+      "confidence": 0.95,
+      "tooth_fdi": null,
+      "bbox": [
+        2038.6,
+        681.8,
+        2237.7,
+        935.4
+      ]
+    },
+    {
+      "class": "impacted_tooth",
+      "confidence": 0.76,
+      "tooth_fdi": null,
+      "bbox": [
+        707.0,
+        674.8,
+        907.2,
+        950.8
+      ]
+    }
+  ],
+  "summary": "3 findings: 1 caries, 2 impacted tooth.",
+  "original_image_url": "/samples/sample_05_val_21_input.png",
+  "annotated_image_url": "/samples/sample_05_val_21_annotated.png",
+  "three_d_available": false,
+  "three_d_note": "No 3D model for a 2D OPG: a panoramic radiograph contains no volumetric data. Upload a CBCT volume (.nii, .nii.gz, or a zipped DICOM/NIfTI series) for 3D segmentation.",
+  "disclaimer": "AI-assisted findings for dentist review. Not a diagnosis."
+}

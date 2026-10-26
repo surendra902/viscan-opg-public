@@ -1,0 +1,105 @@
+{
+  "image_id": "sample_01_val_1",
+  "modality": "OPG",
+  "model": {
+    "name": "fasterrcnn_resnet50_fpn_v2",
+    "version": "2.0.0"
+  },
+  "inference_ms": 8301.8,
+  "findings": [
+    {
+      "class": "impacted_tooth",
+      "confidence": 0.99,
+      "tooth_fdi": null,
+      "bbox": [
+        1260.5,
+        176.1,
+        1391.4,
+        301.8
+      ]
+    },
+    {
+      "class": "impacted_tooth",
+      "confidence": 0.99,
+      "tooth_fdi": null,
+      "bbox": [
+        1344.3,
+        401.0,
+        1477.9,
+        552.1
+      ]
+    },
+    {
+      "class": "caries",
+      "confidence": 0.98,
+      "tooth_fdi": null,
+      "bbox": [
+        1142.7,
+        460.4,
+        1323.1,
+        663.3
+      ]
+    },
+    {
+      "class": "impacted_tooth",
+      "confidence": 0.97,
+      "tooth_fdi": null,
+      "bbox": [
+        448.5,
+        453.3,
+        555.0,
+        605.4
+      ]
+    },
+    {
+      "class": "caries",
+      "confidence": 0.87,
+      "tooth_fdi": null,
+      "bbox": [
+        472.3,
+        465.1,
+        656.7,
+        661.5
+      ]
+    },
+    {
+      "class": "caries",
+      "confidence": 0.85,
+      "tooth_fdi": null,
+      "bbox": [
+        556.8,
+        500.4,
+        753.2,
+        703.7
+      ]
+    },
+    {
+      "class": "caries",
+      "confidence": 0.84,
+      "tooth_fdi": null,
+      "bbox": [
+        1129.9,
+        280.1,
+        1218.2,
+        467.5
+      ]
+    },
+    {
+      "class": "caries",
+      "confidence": 0.73,
+      "tooth_fdi": null,
+      "bbox": [
+        980.9,
+        546.3,
+        1049.7,
+        719.3
+      ]
+    }
+  ],
+  "summary": "8 findings: 5 caries, 3 impacted tooth.",
+  "original_image_url": "/samples/sample_01_val_1_input.png",
+  "annotated_image_url": "/samples/sample_01_val_1_annotated.png",
+  "three_d_available": false,
+  "three_d_note": "No 3D model for a 2D OPG: a panoramic radiograph contains no volumetric data. Upload a CBCT volume (.nii, .nii.gz, or a zipped DICOM/NIfTI series) for 3D segmentation.",
+  "disclaimer": "AI-assisted findings for dentist review. Not a diagnosis."
+}
