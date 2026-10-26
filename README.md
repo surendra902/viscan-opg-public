@@ -540,4 +540,3 @@ In short: the code and architecture could ship commercially, but the trained 2D 
 - **CBCT sample scans:** 3D Slicer "CBCT Dental Surgery" sample data.
 - **Other datasets compared:** Zhou et al., BMC Oral Health, 2024; Tufts Dental Database.
 
-*AI-assisted findings for dentist review. Not a diagnosis.*
